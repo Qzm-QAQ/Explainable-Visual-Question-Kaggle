@@ -25,29 +25,29 @@ This baseline is optimized for **Google Colab or single-GPU environments**, offe
 ---
 
 ## 3. Project Structure
-'''
+
+```text
 project/
-│── configs/
-│ └── default.yaml # model + training configurations
+├─ configs/
+│  └─ default.yaml          # model + training configurations
 │
-│── dataset/
-│ ├── train.csv
-│ ├── val.csv
-│ └── test_non_labels.csv # official test set for submission
+├─ dataset/
+│  ├─ train.csv             # training split
+│  ├─ val.csv               # validation split
+│  └─ test_non_labels.csv   # official test set for submission
 │
-│── models/
-│ └── baseline_model.py # multimodal baseline model
+├─ models/
+│  └─ baseline_model.py     # multimodal baseline model
 │
-│── utils/
-│ ├── dataset_loader.py # dataloader for images & text
-│ ├── evaluation.py # metrics, accuracy, etc.
-│ └── reasoning_templates.py # reasoning sentence generator
+├─ utils/
+│  ├─ dataset_loader.py     # dataloader for images & text
+│  ├─ evaluation.py         # metrics, accuracy, etc.
+│  └─ reasoning_templates.py# reasoning sentence generator
 │
-│── train.py # training entry point
-│── infer.py # inference + submission generator
-│── requirements.txt
-│── README.md
-'''
+├─ train.py                 # training entry point
+├─ infer.py                 # inference + submission generator
+├─ requirements.txt
+└─ README.md
 ---
 
 ## 4. Dataset Preparation
