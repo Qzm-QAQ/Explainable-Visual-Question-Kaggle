@@ -1,6 +1,6 @@
 # -I491E-Explainable-Visual-Question-Kaggle
 The details in my work
-# CLEVR-X Visual Reasoning — Baseline (V1)
+# CLEVR-X Visual Reasoning — Baseline (V2)
 
 ## 1. Introduction
 This repository provides a clean and reproducible baseline solution for the **CLEVR-X Interpretable Visual Reasoning Challenge**.  
@@ -122,8 +122,8 @@ Generate predictions for the official test set:
 
 | image_id   | answer | explanation                      |
 |-----------|--------|----------------------------------|
-| 000001.png| blue   | The object is blue because...    |
-| 000002.png| 2      | There are 2 spheres because...   |
+| xxxxxxx.png| blue   | The object is blue because...    |
+| 0xxxxxx.png| 2      | There are 2 spheres because...   |
 
 The final submission file must be named:
 
