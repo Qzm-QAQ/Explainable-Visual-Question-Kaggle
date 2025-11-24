@@ -25,6 +25,7 @@ This baseline is optimized for **Google Colab or single-GPU environments**, offe
 ---
 
 ## 3. Project Structure
+'''
 project/
 │── configs/
 │ └── default.yaml # model + training configurations
@@ -46,7 +47,7 @@ project/
 │── infer.py # inference + submission generator
 │── requirements.txt
 │── README.md
-
+'''
 ---
 
 ## 4. Dataset Preparation
